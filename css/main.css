@@ -1,0 +1,36 @@
+/*		Root Font CSS		*/
+body { font-family: "Segoe UI", Helvetica, sans-serif, "Segoe UI Symbol"; font-size:15px; line-height:20px;
+}
+
+/*		Code CSS	*/
+body code { 
+	font-family: "Lucida Console", Consolas, monospace;
+	display:inline; padding: 2px 0.5ch 0px;
+	white-space:nowrap;
+	background-color:#ddd; color: #333;	
+	box-shadow: inset #444 0 0 0 0px;	
+	border-radius: 0.5em;
+}
+
+/*	Variant Entry CSS	*/
+.varcolumn {column-width:3in;}
+.varentry a { color:inherit; text-decoration:inherit; }
+.varentry em { color:#999; font-weight:400; }
+
+.varcolumn h1 { font-weight:400; 
+	font-size:2em; line-height: 1.2; margin:5px; 	
+	border-bottom: 2px solid black;
+	font-variant: small-caps;
+}
+.varcolumn h1+p { text-align:right; margin:5px; font-variant:small-caps; }
+.varcolumn .brief { margin:0 10px; display:block; text-align:center; border:solid #666; border-width: 2px 0; color:#666;}
+
+.varentry  { break-inside:avoid; padding-bottom:1.5em;}
+.varentry header {
+  margin: 0.2em 0; padding:1px 5px;
+  background-color:#222; color:#fff;	  }
+.varentry header big,small {
+  vertical-align:middle; display:inline-block;
+  width:49%;  }
+.varentry header big { font-weight: 600; }
+.varentry p {margin:0 1ch; text-indent:-1ch;}
