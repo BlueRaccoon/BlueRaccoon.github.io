@@ -1,9 +1,9 @@
 
 Link to my Tiddlywiki Files (I think)
 
-https://blueraccoon.github.io/Tiddly/Readme
+[Tiddly Readme](https://blueraccoon.github.io/Tiddly/Readme)
 
-https://blueraccoon.github.io/Tiddly/Tid.Test01
+[Tiddly Record 01](https://blueraccoon.github.io/Tiddly/Tid.Test01)
 
 ---
 
